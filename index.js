@@ -45,4 +45,21 @@ console.log(since);
 ages.filter((age)=>{(age>=60)
 
 })
+
 console.log(ages)
+
+//map method
+const college=collegeFamouse.map((colleges,years)=>{
+
+    if(colleges.branch==="cse")
+        return colleges;
+    else if (years.year==="2024-2025")
+        return years
+})
+//sorting
+const sorted=ages.sort((sorted)=>{
+    if(sorted<30){
+        return sorted;
+    }
+})
+console.log(sorted);
